@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+
+<xs:schema version="1.0"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    elementFormDefault="qualified">
+    <xs:element name="peliculas" type="PeliculasComplex"></xs:element>
+
+    <xs:complexType name="PeliculasComplex">
+        <xs:sequence>
+            <xs:element name="pelicula" type="PeliculaComplex" minOccurs="1" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="PeliculaComplex">
+        <xs:sequence>
+            <xs:element name="Título">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="TítuloOriginal">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="Nacionalidad">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="Idioma">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="Año_de_producción">
+                <xs:simpleType>
+                    <xs:restriction base="xs:gYear">
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="Director">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="Intérpretes" type="InterpreteComplex"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="InterpreteComplex">
+        <xs:sequence>
+            <xs:element name="Interprete" minOccurs="1" maxOccurs="unbounded">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/myStyles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <p>Practica 19</p>
+        </div>
+    </header>
+    <div class="container">
+        <h1 class="titulos">Mi horario</h1>
+        <div id="schedule_container">
+            <table>
+                <thead>
+                    <caption>1º Desarollo de Aplicaciones Web</caption>
+                    <tr>
+                        <th></th>
+                        <th>Lunes</th>
+                        <th>Martes</th>
+                        <th>Miércoles</th>
+                        <th>Jueves</th>
+                        <th>Viernes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>8:30-9:25</th>
+                        <td rowspan="2">Entornos de desarrollo</td>
+                        <td rowspan="2">Bases de datos</td>
+                        <td rowspan="3">Programación</td>
+                        <td rowspan="2">Lenguaje de marcas</td>
+                        <td rowspan="3">Sistemas informáticos</td>
+                    </tr>
+                    <tr>
+                        <th>9:25-10:20</th>
+                    </tr>
+                    <tr>
+                        <th>10:20-11:15</th>
+                        <td>Sistemas informáticos</td>
+                        <td>Formación y orientación laboral</td>
+                        <td>Sistemas informáticos</td>
+                    </tr>
+                    <tr>
+                        <th>11:15-11:40</th>
+                        <td colspan="5">Recreo</td>
+                    </tr>
+                    <tr>
+                        <th>11:40-12:35</th>
+                        <td rowspan="3">Programación</td>
+                        <td>Sistemas informáticos</td>
+                        <td>Formación y orientación laboral</td>
+                        <td rowspan="3">Base de datos</td>
+                        <td>Formación y orientación laboral</td>
+                    </tr>
+                    <tr>
+                        <th>12:35-13:30</th>
+                        <td rowspan="2">Lenguaje de marcas</td>
+                        <td>Base de datos</td>
+                        <td rowspan="2">Programación</td>
+                    </tr>
+                    <tr>
+                        <th>13:30-14:25</th>
+                        <td>Entornos de desarrollo</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h1 class="titulos">Formulario de informacion</h1>
+        <form action="parte2.html" method="get">
+            <fieldset>
+                <div>
+                    <label for="color">Elige un color:</label>
+                    <input type="color" name="color" id="color">
+                </div>
+                <div>
+                    <label for="date">Nacimiento: </label>
+                    <input type="date" name="date" id="date">
+                </div>
+                <div>
+                    <label for="datetime">Fecha actual: </label>
+                    <input type="datetime" name="datetime" id="datetime"  placeholder="ejemplo: 01/01/2000">
+                </div>
+                <div>
+                    <label for="datetime_local">Fecha actual (horario local):</label>
+                    <input type="datetime-local" name="datetime_local" id="datetime_local" placeholder="ejemplo: 01/01/2000">
+                </div>
+                <div>
+                    <label for="email">Tu email: </label>
+                    <input type="email" name="email" id="email" placeholder="Introduce tu email aqui...">
+                </div>
+                <div>
+                    <label for="file">Tu foto: </label>
+                    <input type="file" name="file" id="file">
+                </div>
+                <div>
+                    <label for="month">Tu mes favorito del año: </label>
+                    <input type=" month" name="month" id="month" placeholder="¿Cual es tu mes favorito?">
+                </div>
+                <div>
+                    <label for="number">Tu numero favorito: </label>
+                    <input type="number" name="number" id="number" placeholder="Introduce un numero">
+                </div>
+                <div>
+                    <label for="password">Tu contraseña: </label>
+                    <input type="password" name="password" id="password" placeholder="Escribe aqui tu contraseña">
+                </div>
+                <div>
+                    <label for="range">En que rango de edad estas: (entre 1 and 99)</label>
+                    <input type="range" name="range" id="range" min="1" max="99" step="5">
+                </div>
+                <div>
+                    <label for="tel">Tu telefono: </label>
+                    <input type="tel" name="tel" id="tel" placeholder="Introduce aqui tu telefono">
+                </div>
+                <div>
+                    <label for="time">Hora actual: </label>
+                    <input type="time" name="time" id="time" placeholder="¿Que hora es?">
+                </div>
+                <div>
+                    <label for="url">Tu pagina web: </label>
+                    <input type="url" name="url" id="url" placeholder="Introduce aqui la url de tu pagina web!">
+                </div>
+                <input type="submit" value="Guardar cambios" />
+                <input type="reset" name="restablecer" value="Borrar los datos introducidos" />
+            </fieldset>
+        </form>
+    </div>
+
+    <footer>
+        <div>
+            <p>Esmeralda Caño Ortega</p>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE pvideojuegos SYSTEM "pvideojuegos.dtd">
+
+<pvideojuegos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="pvideojuegos.xsd"  >
+
+    <pvideojuego>
+        <codigo fecha="01/03/23" >V_1</codigo>
+        <titulo>The Last of Us II</titulo>
+        <developers>Naughty Dog</developers>
+        <paisOrigen>Estados Unidos</paisOrigen>
+        <year>2020</year>
+        <generos>
+            <genero>Acción</genero>
+            <genero>Aventura</genero>
+            <genero>Terror</genero>
+        </generos>
+        <Plataformas>
+            <Plataforma>PlayStation</Plataforma>
+        </Plataformas>
+    </pvideojuego>
+    <pvideojuego>
+        <codigo fecha="01/02/23">V_2</codigo>
+        <titulo>Hollow Knight</titulo>
+        <developers>Team Cherry</developers>
+        <paisOrigen>Australia</paisOrigen>
+        <year>2017</year>
+        <generos>
+            <genero>Plataformas</genero>
+            <genero>Metroidvania</genero>
+        </generos>
+        <Plataformas>
+            <Plataforma>PlayStation</Plataforma>
+            <Plataforma>PC</Plataforma>
+            <Plataforma>Xbox</Plataforma>
+            <Plataforma>Switch</Plataforma>
+        </Plataformas>
+        <usuarios>
+            <usuario>
+                <username>jlopez</username>
+                <nombre>Julia López</nombre>
+                <telefono>55512345</telefono>
+            </usuario>
+        </usuarios>
+    </pvideojuego>
+</pvideojuegos>

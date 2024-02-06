@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Actividad 1</title>
+	<meta charset="UTF-8"/>
+	<meta name="author" content="Esmeralda"/>
+</head>
+<body>
+	
+	<script>
+		
+		document.write("<h1>Ejercicio 1</h1>");
+
+		var ladoCuadrado;
+            ladoCuadrado = 2;
+
+        var trianguloBase;
+        trianguloBase = 5;
+
+		document.write("<h1>Ejercicio 2</h1>");
+		var circu=5.3;
+		var trianguloAltura= 2;
+		var areaTriangulo= (12*trianguloAltura)/2;
+
+		document.write("<h1>Ejercicio 3</h1>\n");
+		document.write("El triángulo de base " +trianguloBase+ " y altura " +trianguloAltura+ " tiene un área de " +areaTriangulo+ ".");
+		document.write("<h1>Ejercicio 4</h1>\n");
+		document.write(`El triángulo de base ${trianguloBase} y altura ${trianguloAltura} tiene un área de ${areaTriangulo}.`);
+		document.write("<h1>Ejercicio 5</h1>\n");
+		document.write("El triángulo de base " +trianguloBase+ " y altura " +trianguloAltura+ " tiene un área de " +( trianguloBase * trianguloAltura )/2);
+		document.write("<h1>Ejercicio 6</h1>\n");
+		document.write("<h3>El área de la circunferencia es " +( Math.PI * Math.pow(circu, 2) )+ " y su perimetro es " +( 2 * Math.PI * circu )+"</h3>");
+    	
+		document.write("<h1>Ejercicio 7</h1>\n");
+		var hipotenusa = ( Math.sqrt( ( Math.pow(trianguloBase, 2) ) + ( Math.pow(trianguloAltura, 2) ) ) );
+        var perimetro7 = ( hipotenusa+trianguloBase+trianguloAltura);
+        document.write("El perímetro del triángulo rectángulo es " +perimetro7+ ".");
+		
+		document.write("<h1>Ejercicio 8</h1>\n")
+		const BIRTHDAY = 1997;
+		document.write("Mi nombre es: Esmeralda y la edad: " +( 2023 - BIRTHDAY ));
+
+		document.write("<h1>Ejercicio 9</h1>\n")
+		//no se hacerlo
+		document.write("<h1>Ejercicio 10</h1>\n")
+		var compi1 = "Liliana";
+        var compi2 = "Iván";
+        var compi3 = "Óscar";
+
+        document.write("<ol><li>" +compi1+ "</li><li>" +compi2+ "</li><li>" +compi3+ "</li></ol>");
+
+	</script>
+</body>
+</html>																																		

@@ -1,0 +1,22 @@
+<!ELEMENT curso (nombre, numero_aula, horario, equipos_informaticos, alumnos)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT numero_aula (#PCDATA)>
+<!ELEMENT horario (dias)>
+<!ELEMENT dias (dia+)>
+<!ELEMENT dia (modulos)>
+<!ATTLIST dia nombre CDATA #REQUIRED>
+<!ELEMENT modulos (modulo+)>
+<!ELEMENT modulo (#PCDATA)>
+<!ATTLIST modulo hora_inicio CDATA #REQUIRED>
+<!ATTLIST modulo hora_fin CDATA #REQUIRED>
+<!ELEMENT equipos_informaticos (equipo+)>
+<!ELEMENT equipo (ip?, mascara?, puerta_enlace?)>
+<!ATTLIST equipo numero ID #IMPLIED>
+<!ELEMENT ip (#PCDATA)>
+<!ELEMENT mascara (#PCDATA)>
+<!ELEMENT puerta_enlace (#PCDATA)>
+<!ELEMENT alumnos (alumno+)>
+<!ELEMENT alumno (pc)>
+<!ATTLIST alumno nombre CDATA #REQUIRED>
+<!ELEMENT pc (#PCDATA)>
+<!ATTLIST pc numero IDREF #REQUIRED>

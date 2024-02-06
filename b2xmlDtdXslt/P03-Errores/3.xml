@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<libros>
+  <libro>
+    <autor>barto</autor>
+    <texto>
+      <titulo>XML explicado a los niños</titulo>
+      <abreviatura>XML</abreviatura>
+      <párrafos>
+        <párrafo>El define cómo crear lenguajes de marcas.</párrafo>  
+        <párrafo>Las marcas se añaden a un documento de texto para añadir información.</párrafo>
+      </párrafos>
+      <ruta via="http://">www.example.org</ruta>
+    </texto>
+  </libro>
+</libros>

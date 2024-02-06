@@ -1,0 +1,54 @@
+iframe {
+	border: 1px solid green;
+}
+
+p {
+	clear: left;
+	font-size: 0.9em;
+}
+
+.titulo {
+	line-height: 0;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+#pie {
+	clear: both;
+	float: left;
+}
+
+#pie p {
+	font-style: italic;
+	text-decoration: underline;
+	margin: 25px;
+}
+
+.caja {
+	width: 500px;
+	height: 300px;
+	margin: 50px;
+	float: left;
+}
+
+.recuadro {
+	width: 500px;
+	height: 300px;
+	margin: 50px;
+	float: left;
+}
+
+#recuadro3 {
+	clear: left;
+}
+
+#recuadro5 {
+	clear: left;
+}
+
+#recuadro7 {
+	clear: left;
+}
+
+#contenedor_recuadros {
+	min-width: 1200px;
+}

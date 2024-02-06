@@ -1,0 +1,171 @@
+/*--------------- general --------------------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Pacifico', cursive;
+
+}
+
+::selection {
+    color: pink;
+    background-color: red;
+}
+
+header {
+    color: white;
+    height: 50px;
+    background: linear-gradient(146deg, rgba(2, 0, 36, 1) 0%, rgba(2, 2, 34, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    position: sticky;
+    top: 0;
+    background-color: yellow;
+    padding: 50px;
+    font-size: 1.2em;
+    z-index: 1;
+
+}
+
+footer {
+    height: 200px;
+    background-color: gray;
+    color:white;
+}
+
+footer p {
+    font-size: 2em;
+    padding: 50px;
+}
+
+.container {
+    margin: 2%;
+}
+
+
+.titulos {
+    text-align: center;
+}
+
+
+/*--------------- horario --------------------*/
+table {
+
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+}
+
+table td,
+table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table td:hover {
+    background-color: #ddd;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+#schedule_container {
+    box-shadow: 10px 10px 5px gray;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    padding: 2%;
+    background-color: white;
+}
+
+
+
+/*--------------- formulario --------------------*/
+
+form {
+    background-color: white; 
+    border-radius: 20px;
+}
+
+form div {
+    box-shadow: 2px 2px gray;
+    border-radius: 20px;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    clear: both;
+}
+
+form div:nth-child(even) {
+    position: relative;
+    right: 15px;
+    background-color: #3CBC8D;
+}
+
+form div:nth-child(odd) {
+    position: relative;
+    left: 15px;
+    background-color: #3CBC8D;
+}
+
+form div:hover {
+    background-color: gray;
+    color: white;
+    scale: 1.2;
+}
+
+fieldset {
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 20px;
+}
+
+input {
+    color: white;
+    border: none;
+    box-shadow: 2px 2px white;
+    background: none;
+    width: 100%;
+    border-radius: 10px;
+}
+
+input[type=button],
+input[type=submit],
+input[type=reset] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 32px;
+    margin: 2%;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px double black;
+    box-shadow: 2px 2px 2px black;
+    width: auto;
+}
+
+input::placeholder {
+    color: wheat;
+}
+
+#range,
+#color {
+    appearance: none;
+    width: 100%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}

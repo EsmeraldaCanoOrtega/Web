@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Actividad 1</title>
+        <meta charset="UTF-8" />
+        <meta name="author" content="Esmeralda" />
+        <script type="text/javascript" language="javascript" src="funciones.js"></script>
+        <style>
+            .Respuesta{
+                /*visibility: hidden -> la pagina no muestra la vista del elemento, pero existe en el DOM y ocupa espacio en la pagina cargada*/
+                display: none; /*la pagina no carga la vista del elemento, pero existe en el DOM*/
+            }
+        </style>
+    </head>
+
+    <body>
+        <div>
+            <h1 onclick="toogle('r1')">¿What does the fox says?</h1>
+            <p class="Respuesta" id="r1">Nino nino nino ninoni, nininoninoninoni</p>
+            <h1 onclick="toogle('r2')">¿What does the fox says?</h1>
+            <p class="Respuesta" id="r2">Nino nino nino ninoni, nininoninoninoni</p>
+            <h1 onclick="toogle('r3')">¿What does the fox says?</h1>
+            <p class="Respuesta" id="r3">Nino nino nino ninoni, nininoninoninoni</p>
+            
+        </div>
+    </body>
+</html>

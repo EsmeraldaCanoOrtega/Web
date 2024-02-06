@@ -1,0 +1,20 @@
+<!ELEMENT pvideojuegos (pvideojuego+)>
+<!ATTLIST pvideojuegos
+          xmlns:xsi CDATA #IMPLIED
+          xsi:noNamespaceSchemaLocation CDATA #IMPLIED>
+<!ELEMENT pvideojuego (codigo,titulo,developers,paisOrigen,year,generos+,Plataformas*,usuarios?)>
+<!ELEMENT codigo (#PCDATA)>
+<!ATTLIST codigo fecha CDATA #REQUIRED>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT developers (#PCDATA)>
+<!ELEMENT paisOrigen (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT generos (genero+)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT Plataformas (Plataforma+)>
+<!ELEMENT Plataforma (#PCDATA)>
+<!ELEMENT usuarios (usuario*)>
+<!ELEMENT usuario (username?,nombre,telefono?)>
+<!ELEMENT username (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>

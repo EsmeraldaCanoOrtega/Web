@@ -1,0 +1,71 @@
+
+iframe{
+	border: 1px solid green;
+}
+p
+{	clear: left;
+	font-size:0.9em;
+}
+.titulo{
+	line-height: 0;
+	font-family: 'Courier New', Courier, monospace;
+}
+#pie{
+	clear: both;
+	float: left;
+}
+
+#pie p{
+	font-style: italic;
+	text-decoration: underline;
+	margin: 25px;
+}
+
+.recuadro
+{
+	width: 500px;
+	height:300px;	
+	margin:50px;
+	float: left;
+}
+
+#recuadro1
+{
+
+
+}
+	
+#recuadro2
+{
+	
+}
+
+#recuadro3
+{	
+	clear: left;
+	
+}
+
+#recuadro4
+{	
+
+}
+#recuadro5
+{	
+	clear: left;
+}
+#recuadro6
+{	
+
+}
+#recuadro7
+{	
+	clear: left;
+}
+#recuadro8
+{	
+
+}
+#contenedor_recuadros{
+	min-width: 1200px;
+}

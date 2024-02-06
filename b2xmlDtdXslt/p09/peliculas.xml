@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="peliculas.css"?>
+
+
+<peliculas >
+    <pelicula>
+        <Título>Shrek</Título>
+        <TítuloOriginal>Shrek</TítuloOriginal>
+        <Nacionalidad>EEUU</Nacionalidad>
+        <Idioma>English</Idioma>
+        <Año_de_producción>2001</Año_de_producción>
+        <Director>Andrew Adamson</Director>
+        <Intérpretes>
+            <Interprete>Eddie Murphy</Interprete>
+            <Interprete>Cameron Diaz</Interprete>
+            <Interprete>Mike Myers</Interprete>
+        </Intérpretes>
+    </pelicula>
+    <pelicula>
+        <Título>Shrek 2</Título>
+        <TítuloOriginal>Shrek 2</TítuloOriginal>
+        <Nacionalidad>EEUU</Nacionalidad>
+        <Idioma>English</Idioma>
+        <Año_de_producción>2004</Año_de_producción>
+        <Director>Andrew Adamson</Director>
+        <Intérpretes>
+            <Interprete>Eddie Murphy</Interprete>
+            <Interprete>Cameron Diaz</Interprete>
+            <Interprete>Antonio Banderas</Interprete>
+        </Intérpretes>
+    </pelicula>
+    <pelicula>
+        <Título>Shrek tercero</Título>
+        <TítuloOriginal>Shrek the third</TítuloOriginal>
+        <Nacionalidad>EEUU</Nacionalidad>
+        <Idioma>English</Idioma>
+        <Año_de_producción>2007</Año_de_producción>
+        <Director>Andrew Adamson</Director>
+        <Intérpretes>
+            <Interprete>Eddie Murphy</Interprete>
+            <Interprete>Cameron Diaz</Interprete>
+            <Interprete>Antonio Banderas</Interprete>
+        </Intérpretes>
+    </pelicula>
+    <pelicula>
+        <Título>Shrek, felices para siempre</Título>
+        <TítuloOriginal>Shrek Forever After</TítuloOriginal>
+        <Nacionalidad>EEUU</Nacionalidad>
+        <Idioma>English</Idioma>
+        <Año_de_producción>2010</Año_de_producción>
+        <Director>Andrew Adamson</Director>
+        <Intérpretes>
+            <Interprete>Eddie Murphy</Interprete>
+            <Interprete>Cameron Diaz</Interprete>
+            <Interprete>Antonio Banderas</Interprete>
+        </Intérpretes>
+    </pelicula>
+    <pelicula>
+        <Título>El gato con botas</Título>
+        <TítuloOriginal>Puss in Boots</TítuloOriginal>
+        <Nacionalidad>EEUU</Nacionalidad>
+        <Idioma>English</Idioma>
+        <Año_de_producción>2011</Año_de_producción>
+        <Director>Chris Miller</Director>
+        <Intérpretes>
+            <Interprete>Salma Hayek</Interprete>
+            <Interprete>Chris Miller</Interprete>
+            <Interprete>Antonio Banderas</Interprete>
+        </Intérpretes>
+    </pelicula>
+</peliculas>

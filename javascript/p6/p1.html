@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Actividad 1</title>
+	<meta charset="UTF-8" />
+	<meta name="author" content="Esmeralda" />
+	<script type="text/javascript" language="javascript" src="funciones.js"></script>
+	<style>
+		.elegante {
+			background-color: teal;
+			border: none;
+			color: white;
+			padding: 20px;
+			text-align: center;
+			font-size: 15px;
+			font-weight: bold;
+			cursor: pointer;
+		}
+	</style>
+</head>
+
+<body id="docu">
+
+	<h2>Triángulo rectángulo</h2>
+	<h3>Base:</h3>
+	<p id="base">4</p>
+	<h3>Altura:</h3>
+	<p id="altura">6</p>
+	<h3>Área:</h3>
+	<p id="area"> - </p>
+	<h3>Perímetro:</h3>
+	<p id="perimetro"> - </p>
+	<br>
+	<button onclick="calcularArea_a()">Calcula el area</button>
+	<button onclick="calcularPerimetro_a()">Calcula el perimetro</button>
+	<br>
+	<button onclick="calcularPerimetro_b(),calcularArea_b()">Calcula el perimetro y el area</button>
+	<table border="1">
+		<tr>
+			<th>Base:</th>
+			<th>Altura</th>
+			<th>Área</th>
+			<th>Perímetro</th>
+		</tr>
+		<tr>
+			<td id="base">4</td>
+			<td id="altura">6</td>
+			<td id="area">-</td>
+			<td id="perimetro">-</td>
+		</tr>
+	</table>
+
+	<br>
+
+	<button onclick="calcularArea_c(), calcularPerimetro_c()">Calcular area y perimetro en inputs</button>
+	<form method="get">
+		<label for="base">Base</label>
+		<input type="text" name="base" id="base"/>
+			<br>
+		<label for="altura">Altura</label>
+		<input type="text" name="altura" id="altura"/>
+			<br>
+		<label for="area">Area</label>
+		<input type="text" name="area" id="area"/>
+			<br>
+		<label for="perimetro">Perimetro</label>
+		<input type="text" name="perimetro" id="perimetro"/>
+	</form>
+</body>
+
+</html>

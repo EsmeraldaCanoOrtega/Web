@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+
+
+<curso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="aula3.xsd" 
+>
+    <nombre>ASD</nombre>
+    <numero_aula>A21</numero_aula>
+    <horario>
+        <dias>
+            <dia nombre="lunes">
+                <modulos>
+                    <modulo hora_inicio="8:30" hora_fin="10:20">ED</modulo>
+                    <modulo hora_inicio="10:20" hora_fin="11:15">SI</modulo>
+                    <modulo hora_inicio="11:40" hora_fin="14:25">PROG</modulo>
+                </modulos>
+            </dia>
+            <dia nombre="martes">
+                <modulos>
+                    <modulo hora_inicio="8:30" hora_fin="10:20">BBDD</modulo>
+                    <modulo hora_inicio="11:40" hora_fin="12:35">SI</modulo>
+                    <modulo hora_inicio="12:35" hora_fin="14:25">LM</modulo>
+                </modulos>
+            </dia>
+            <dia nombre="miercoles">
+                <modulos>
+                    <modulo hora_inicio="8:30" hora_fin="11:15">PROG</modulo>
+                    <modulo hora_inicio="12:35" hora_fin="13:30">BBDD</modulo>
+                    <modulo hora_inicio="13:30" hora_fin="14:25">ED</modulo>
+                </modulos>
+            </dia>
+        </dias>
+    </horario>
+    <equipos_informaticos>
+        <equipo numero="e001">
+            <ip>10.20.20.100</ip>
+            <mascara>5b:be:e2:bc:05:6a</mascara>
+            <puerta_enlace>10.20.20.1</puerta_enlace>
+        </equipo>
+        <equipo numero="e002">
+            <ip>10.20.20.100</ip>
+            <mascara>99:5b:41:ad:08:23</mascara>
+            <puerta_enlace>10.20.20.1</puerta_enlace>
+        </equipo>
+        <equipo numero="e003">
+            <ip>10.20.20.100</ip>
+            <mascara>39:a3:1f:0c:0c:59</mascara>
+            <puerta_enlace>10.20.20.1</puerta_enlace>
+        </equipo>
+    </equipos_informaticos>
+    <alumnos>
+        <alumno nombre="Esmeralda Caño Ortega">
+            <pc numero="e001"/>
+        </alumno>
+        <alumno nombre="Liliana Fernández Dacosta">
+            <pc numero="e002"/>
+        </alumno>
+        <alumno nombre="Iván Rodrigo Illescas">
+            <pc numero="e003"/>
+        </alumno>
+    </alumnos>
+</curso>

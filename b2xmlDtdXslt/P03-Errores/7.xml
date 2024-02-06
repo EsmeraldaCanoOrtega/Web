@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<mediosDeTransporte> 
+  <bicicletas>
+    <bicicleta>
+      <km_h>100</km_h>
+    </bicicleta>
+  </bicicletas>
+   <patinetes>
+    <patinete>
+      <km_h>50</km_h>
+    </patinete>
+   </patinetes>
+</mediosDeTransporte>

@@ -1,0 +1,14 @@
+<!ELEMENT recetas (receta+)>
+<!ELEMENT receta (nombre,tipo,celiacos,Ingredientes,preparación)>
+<!ATTLIST receta numero CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT celiacos (#PCDATA)>
+<!ELEMENT Ingredientes (Ingrediente+)>
+<!ELEMENT Ingrediente (nombre, cant?, unidad?)>
+<!ATTLIST Ingrediente numero CDATA #REQUIRED>
+<!ELEMENT cant (#PCDATA)>
+<!ELEMENT unidad (#PCDATA)>
+<!ELEMENT preparación (paso+)>
+<!ELEMENT paso (#PCDATA)>
+<!ATTLIST paso numero CDATA #REQUIRED>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Actividad 1</title>
+		<meta charset="UTF-8"/>
+		<meta name="author" content="Esmeralda"/>
+	</head>
+	<body>
+
+		<script>
+		
+		document.write("<h1>Ejercicio 1</h1>");
+		var parOimpar = 0;
+
+        if ( parOimpar ==0 ){
+			document.write("El número "+parOimpar+" es cero");
+            
+        }else if(parOimpar % 2 == 0){
+			document.write("El número es " +parOimpar+ " es par. ");
+		}
+        else{
+             document.write("El número " +parOimpar+ " es impar.");
+        }
+
+		document.write("<h1>Ejercicio 2</h1>");
+        var salarMensual = 1200;
+        const SMI = 1080;
+
+        if( salarMensual < SMI ){
+            alert("Te doy el pésame");
+    	}
+		document.write("<h1>Ejercicio 3</h1>");
+		var sueldo_anual = salarMensual*14;
+
+		if( ( sueldo_anual ) < SMI *14 )
+		{
+		alert("El sueldo es menor que el SMI establecido este año en España");
+		}
+		document.write("<h1>Ejercicio 4</h1>");
+		var num1 =1, num2=-1, num3=0;
+		if(num1 == num2 || num1==num3|| num2 == num3){
+			document.write("Hay numeros repetidos");
+		}else if ( num1 < num2 && num1 < num3){
+            document.write("El número " +num1+ " es el menor.");
+        }else if (num2<num1 && num2<num3){
+			document.write("El número " +num2+ " es el menor.");
+		}else{
+			document.write("El número " +num3+ " es el menor.");
+		}
+		document.write("<h1>Ejercicio 5</h1>");
+		var num = -1;
+
+        if ( num < 0 || num % 2 != 0 ){
+            console.log("Error, el número impar o bien negativo.");
+        }
+		document.write("<h1>Ejercicio 6</h1>");
+		var diaSemana = 3;
+
+            switch(diaSemana){
+                case 1:
+                    document.write("Lunes");
+                    break;
+
+                case 2:
+                    document.write("Martes");
+                    break;
+
+                case 3:
+                    document.write("Miércoles");
+                    break;
+
+                case 4:
+                    document.write("Jueves");
+                    break;
+
+                case 5:
+                    document.write("Viernes");
+                    break;
+
+                case 6:
+                    document.write("Sábado");
+                    break;
+
+                case 7:
+                    document.write("Domingo");
+                    break;
+
+                default:
+                    document.write("La semana es desde el dia 1 hasta el 7");
+            }
+		document.write("<h1>Ejercicio 7</h1>");
+		var diaSemanaStr = "Sábado";
+
+            switch(diaSemanaStr){
+                case "Lunes":
+                    document.write(1);
+                    break;
+
+                case "Martes":
+                    document.write(2);
+                    break;
+
+                case "Miércoles":
+                    document.write(3);
+                    break;
+
+                case "Jueves":
+                    document.write(4);
+                    break;
+
+                case "Viernes":
+                    document.write(5);
+                    break;
+
+                case "Sábado":
+                    document.write(6);
+                    break;
+
+                case "Domingo":
+                    document.write(7);
+                    break;
+
+                default:
+                    document.write("La semana es desde el dia 1 hasta el 7");
+            }
+		document.write("<h1>Ejercicio 8</h1>");
+		
+		var dialab = 6;
+
+		switch(dialab){
+			case 1: case 2: case 3: case 4: case 5:
+				document.write("Día laborable.");
+				break;
+
+			case 6: case 7:
+				document.write("Día no laborable.");
+				break;
+
+			default:
+				document.write("Día incorrecto.");
+		}
+		document.write("<h1>Ejercicio 9</h1>");
+		var nota = 3.5;
+
+        if ( nota < 0.0 && nota > 10.0 ){
+			document.write("Nota no valida. Recuerde del 1 al 10");
+		}else if ( nota > 4.5 ){
+			document.write("Aprobado.");
+		}else{
+            document.write("Suspenso.");
+        }
+		document.write("<h1>Ejercicio 10</h1>");
+		var examenN = 5.0;
+        var practicasN = 6.5;
+        var notaFinal;
+
+        if ( examenN >= 4.50 && practicasN >= 4.5 ){
+            notaFinal = ( ( examenN * 0.8 ) + ( practicasN * 0.2 ) );
+            document.write("Has aprobado con un " +notaFinal+ ".");
+        }else{
+            document.write("Has suspendido. No te desanimes");
+        }
+            
+	</script>
+	</body>
+</html>

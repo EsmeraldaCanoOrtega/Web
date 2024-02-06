@@ -1,0 +1,48 @@
+pelicula {
+    clear: both;
+    float: left;
+    margin: 1%;
+    border: 5px ridge black;
+    font-size: 1.2em;
+    padding: 1%;
+    min-width: 250px;
+}
+
+pelicula:hover {
+    background-color: gray;
+}
+
+pelicula:nth-child(even) {
+    background-color: gray;
+}
+
+pelicula:nth-child(even):hover {
+    background-color: black;
+    color: white;
+}
+
+Título {
+    color: red;
+}
+
+TítuloOriginal {
+    color: blue;
+}
+
+Nacionalidad {
+    color: green;
+}
+
+Intérpretes {
+    color: purple;
+}
+
+TítuloOriginal,
+Título,
+Nacionalidad,
+Idioma,
+Año_de_producción,
+Director,
+Interprete {
+    display: grid;
+}

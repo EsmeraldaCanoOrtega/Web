@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recetas>
+    <receta numero="1">
+        <nombre>Salchichas al vino blanco</nombre>
+        <tipo>primero</tipo>
+        <celiacos>no</celiacos>
+        <Ingredientes>
+            <Ingrediente numero="1">
+                <nombre>longanizas</nombre>
+                <cant>1</cant>
+                <unidad>kg</unidad>
+            </Ingrediente>
+            <Ingrediente numero="2">
+                <nombre>cebollas</nombre>
+                <cant>1</cant>
+                <unidad>pieza</unidad>
+            </Ingrediente>
+            <Ingrediente numero="3">
+                <nombre>vino blanco</nombre>
+                <cant>200</cant>
+                <unidad>ml</unidad>
+            </Ingrediente>
+            <Ingrediente numero="4">
+                <nombre>agua</nombre>
+                <cant>350</cant>
+                <unidad>ml</unidad>
+            </Ingrediente>
+        </Ingredientes>
+        <preparación>
+            <paso numero="1">marcar la carne</paso>
+            <paso numero="2">cortar cebolla a la juliana</paso>
+            <paso numero="3">sofreir cebolla</paso>
+            <paso numero="4">vertir el vino blanco hasta evaporar el alcohol</paso>
+            <paso numero="5">vertir las longanizas marcadas, el agua y salpimentar el guiso</paso>
+            <paso numero="6">fuego fuerte hasta que ebulla, a continuación fuego bajo durante 30 min con una tapa para que se haga al vapor</paso>
+        </preparación>
+    </receta>
+    <receta numero= "2">
+        <nombre>croquetas</nombre>
+        <tipo>aperitivo</tipo>
+        <celiacos>no</celiacos>
+        <Ingredientes>
+            <Ingrediente numero="1">
+                <nombre>leche</nombre>
+                <cant>1</cant>
+                <unidad>L</unidad>
+            </Ingrediente>
+            <Ingrediente numero="2">
+                <nombre>margarina</nombre>
+                <cant>250</cant>
+                <unidad>mgr</unidad>
+            </Ingrediente>
+            <Ingrediente numero="3">
+                <nombre>harina</nombre>
+                <cant>250</cant>
+                <unidad>mgr</unidad>
+            </Ingrediente>
+            <Ingrediente numero="3">
+                <nombre>jamón</nombre>
+                <cant>la mitad de un paquete</cant>
+            </Ingrediente>
+        </Ingredientes>
+        <preparación>
+            <paso numero="1">calentar la margarina a fuego lento</paso>
+            <paso numero="2">vertir el jamón picado y sazonarlo de sal al gusto</paso>
+            <paso numero="3">Hacer una roux: cocción de la mezcla mantequilla,harina y jamón 2-3 minutos.</paso>
+            <paso numero="4">vertir un litro de leche</paso>
+            <paso numero="5">fuego lento y constantemente remover hasta que sea una masa uniforme</paso>
+        </preparación>
+    </receta>
+    <receta numero= "3">
+        <nombre>arroz con leche</nombre>
+        <tipo>aperitivo</tipo>
+        <celiacos>no</celiacos>
+        <Ingredientes>
+            <Ingrediente numero="1">
+                <nombre>leche</nombre>
+                <cant>1</cant>
+                <unidad>L</unidad>
+            </Ingrediente>
+            <Ingrediente numero="2">
+                <nombre>arroz</nombre>
+                <cant>250</cant>
+                <unidad>mgr</unidad>
+            </Ingrediente>
+            <Ingrediente numero="3">
+                <nombre>azúcar</nombre>
+                <cant>200</cant>
+                <unidad>mgr</unidad>
+            </Ingrediente>
+        </Ingredientes>
+        <preparación>
+            <paso numero="1">calentar la leche con una rama de canela</paso>
+            <paso numero="2">cuando empiece a ebullir, bajar el fuego y vertir el arroz lavado</paso>
+            <paso numero="3">cuando empiece a escasear la leche, vertir el azúcar</paso>
+            <paso numero="4">sacar en cuanto el arroz este a nuestro gusto</paso>
+        </preparación>
+    </receta>
+</recetas>

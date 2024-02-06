@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Actividad 10</title>
+	    <meta charset="UTF-8"/>
+	    <meta name="author" content="Esmeralda"/>
+    </head>
+    <body>
+        <h1>Rellena tu solicitud</h1>
+        <form action="parte1.html" method="get">
+        <fieldset>
+            <legend>Datos básicos</legend>
+            Nombre
+            <br/><input type="text" name="Nombre" value="" maxlength="10" /><br>
+            Apellidos
+            <br/><input type="text" name="Apellidos" value="" maxlength="10" /><br/>
+            Contraseña
+            <br/><input type="password" name="Contraseña" value="" maxlength="10" /><br/>
+            Motivación
+            <br/><textarea name="Reseña" rows="7" cols="25"></textarea><br/>
+            Sexo
+            <br/><input type="radio" name="sexo" value="hombre" checked="checked"/> 
+                Hombre 
+                <br/><input type="radio" name="sexo" value="mujer"/>
+                Mujer
+                <br/><input type="radio" name="sexo" value="otro" />		
+                Otro
+                <br/><br/>
+            Fotografía
+            <br/><input type="file" name="adjunto" value="Examinar..."/><br/><br>
+
+            <input id="op1" type="checkbox" name="opciones" value="opcion1"/>
+            <label for="op1">Añadir contador de visitas</label><br/>
+            <input id="op2" type="checkbox" name="opciones" value="opcion2"/>
+            <label for="op2">Suscribirme al boletín de novedades</label>
+        </fieldset><br>
+
+        <fieldset>
+            <legend>Datos adicionales</legend>
+
+            <label for="provincia">Provincia</label><br/>
+                <select id="provincia" name="provincia">
+
+                    <option value="" selected="selected">- selecciona -</option>
+
+                    <option value="Madrid">Madrid</option>
+                    <option value="Barcelona">Barcelona</option>
+                    <option value="Asturias">Bilbao</option>
+                    <option value="Cáceres">Sevilla</option>
+                    <option value="Otro">Otro</option>
+
+                </select>
+
+
+                <br>
+                <br>
+
+                Fecha de nacimiento
+                <br/>
+                <input type="number" name="dia" value="" maxlength="2"/>
+                <span>de</span>
+                <select id="mes" name="mes">
+
+                    <option value="enero" selected="selected">Enero</option>
+                    <option value="febrero">Febrero</option>
+                    <option value="marzo">Marzo</option>
+                    <option value="abril">Abril</option>
+                    <option value="mayo">Mayo</option>
+                    <option value="junio">Junio</option>
+                    <option value="julio">Julio</option>
+                    <option value="agosto">Agosto</option>
+                    <option value="septiembre">Septiembre</option>
+                    <option value="octubre">Octubre</option>
+                    <option value="noviembre">Noviembre</option>
+                    <option value="diciembre">Diciembre</option>
+
+                </select>
+
+                <span>de</span>
+
+                <input type="number" name="anio" value="" maxlength="4"/>
+
+                <br>
+                <br>
+
+                <label for="ti">Temas de interés</label> <br/>
+
+                <select id="ti" name="temasinteres" size="5">
+
+                    <option value="bbdd">Administración de bases de datos</option>
+                    <option value="lm">Lenguaje de Marcas</option>
+                    <option value="prog">Programación</option>
+                    <option value="so">Sistemas operativos</option>
+                    <option value="gp">Gestión de proyectos</option>
+
+                </select>
+
+        </fieldset>
+            
+            <br/>
+
+            <fieldset>
+
+                <legend>Datos económicos</legend>
+
+                <span>Precio </span><input type="number" name="precio" value=""/> <span>€</span>
+
+                <span>Impuestos </span>
+
+                <select id="imp" name="impuestos">
+
+                    <option value="4" selected="selected">4%</option>
+                    <option value="4">4%</option>
+                    <option value="5">5%</option>
+                    <option value="6">6%</option>
+                    <option value="7">7%</option>
+                    <option value="8">8%</option>
+
+                </select>
+
+                <br>
+                <br>
+
+                Promoción
+                <br/>
+                <input type="radio" name="promo" value="ninguno" checked="checked"/> 
+                Ninguno 
+
+                <br/>
+                
+                <input type="radio" name="promo" value="transgra"/>
+                Transporte gratuito
+
+                <br/>
+
+                <input type="radio" name="promo" value="des5" />		
+                Descuento 5%
+
+            </fieldset>
+
+            <br>
+
+            <input type="submit" value="Guardar cambios"/>
+            <input type="reset" name="restablecer" value="Borrar los datos introducidos"/>
+
+        </form>
+
+
+
+
+    </body>
+</html>

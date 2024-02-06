@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<paises  >
+  <pais>
+    <nombre>España</nombre>
+    <capital>Madrid</capital>
+    <continente>Europa</continente>
+    <idioma>Español</idioma>
+    <lider_politico>Pedro Sánchez</lider_politico>
+    <ciudades>
+      <ciudad nombre="Madrid" gentilicio = "madrileño/a" zona_horaria = "GMT +1">
+        <superficie km = "604,3"/>
+        <población>3,8 millones</población>
+        <monumentos>
+          <monumento>Plaza Mayor</monumento>
+          <monumento>Puerta del Sol</monumento>
+          <monumento>Museo Nacional del Prado</monumento>
+          <monumento>Parque de El Retiro</monumento>
+        </monumentos>
+      </ciudad>
+      <ciudad nombre = "Barcelona" gentilicio = "barcelonés/a" zona_horaria = "GMT +1">
+        <superficie km = "101"/>
+        <población>1,7 millones</población>
+        <monumentos>
+          <monumento>La Basílica de la Sagrada Familia</monumento>
+          <monumento>Park Güel</monumento>
+          <monumento>Catedral de Barcelona</monumento>
+        </monumentos>
+      </ciudad>
+      <ciudad nombre = "Sevilla" gentilicio = "sevillano/a" zona_horaria = "GMT +1">
+        <superficie km = "140"/>
+        <población>700 mil</población>
+        <monumentos>
+          <monumento>La Giralda</monumento>
+          <monumento>La Torre del Oro</monumento>
+          <monumento>Plaza de España</monumento>
+        </monumentos>
+      </ciudad>
+    </ciudades>
+    <tiene_costa>Sí</tiene_costa>
+  </pais>
+  <pais>
+    <nombre>Inglaterra</nombre>
+    <capital>Londres</capital>
+    <continente>Europa</continente>
+    <idioma>Inglés</idioma>
+    <lider_politico>Boris Johnson</lider_politico>
+    <ciudades>
+      <ciudad nombre = "Londres" gentilicio = "londinense" zona_horaria = "GMT +0">
+        <superficie km = "1572"/>
+        <población>9 millones</población>
+        <monumentos>
+          <monumento>Big Ben</monumento>
+          <monumento>Tower of London</monumento>
+          <monumento>Hyde Park</monumento>
+          <monumento>The Houses of Parliament</monumento>
+        </monumentos>
+      </ciudad>
+      <ciudad nombre = "Liverpool" gentilicio = "liverpuliano/a" zona_horaria = "GMT +0">
+        <superficie km = "111,8"/>
+        <población>500 mil</población>
+        <monumentos>
+          <monumento>Albert Dock</monumento>
+          <monumento>The Beatles Story Museum</monumento>
+          <monumento>Anfield</monumento>
+        </monumentos>
+      </ciudad>
+    </ciudades>
+    <tiene_costa>Sí</tiene_costa>
+  </pais>

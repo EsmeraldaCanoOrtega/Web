@@ -1,0 +1,84 @@
+/* B1P14 - Resolver por orden. Cada apartado se resuelve con una única regla y sin tocar nunca el archivo HTML */
+
+/* Fijar el ancho del cuerpo (body) a 85% de la ventana del navegador, y cambiar el color de fondo a azul claro (lightblue) */
+body{
+    width: 85%;
+    background-color: lightblue;
+}
+
+/* Cambiar el color de los títulos <h1> a #9b59b6*/
+h1{
+    color: #9b59b6;
+}
+
+/* Todos los títulos <h2> se mostrarán subrayados y en color salmón*/
+h2{
+    color: salmon;
+    text-decoration: underline;
+}
+
+/* El título <h2> con id "temas" (temas que estudió Alan Turing) no irá subrayado */
+h2#temas{
+    text-decoration: none;
+}
+
+/* Las dos listas se escribirán en verde oscuro (dark green) */
+ul{
+    color: darkgreen;
+}
+
+/* La segunda lista (fuentes del artículo) se escribirá en rojo */
+p+div>ul{
+    color: red;
+}
+
+/* El color de fondo de los párrafos es amarillo claro (light yellow)*/
+p{
+    background-color: lightyellow;
+}
+
+/* Los elementos con clase "destacado" tienen fondo blanco*/
+.destacado{
+    background-color: white;
+}
+/* El elemento con id "especial" tendrá un borde de 2 píxeles en azul*/
+#especial{
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+}
+/* Todos los párrafos incluidos en elementos <div> tendrán un tamaño de fuente de 20 píxeles*/
+div p{
+    font-size: 20px;
+}
+
+/* Los párrafos dentro del tercer <div> (El test de Turing) tendrán fondo púrpura (purple) y margen izquierdo y derecho de 10 píxeles */
+div+div+div>p{
+    color: purple;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Dentro de ese mismo <div>, el segundo párrafo se escribirá en naranja y con un padding en todas direcciones de 20 píxeles */
+div+div+div>p+p{
+    color: orange;
+    padding: 20px 20px 20px 20px;
+}
+
+/* Dentro de ese mismo <div> hay dos elementos <em>: uno directamente contenido en el div y otro incluido 
+dentro de un <span>. El que está directamente incluido ("Una computadora...") irá subrayado y sin cursiva */
+div+div+div>p>em{
+    text-decoration: underline;
+    font-style: normal;
+}
+
+/* Los enlaces aparecerán con la línea por encima y con color de fondo amarillo */
+a:link{
+    text-decoration: overline;
+    background-color: yellow;
+}
+
+/* Los enlaces ya visitados aparecerán con color de fondo verde claro (lightgreen) */
+a:visited{
+    background-color: lightgreen;
+}

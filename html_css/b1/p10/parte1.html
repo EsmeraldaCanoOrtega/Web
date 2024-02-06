@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Actividad 10</title>
+	    <meta charset="UTF-8"/>
+	    <meta name="author" content="Esmeralda"/>
+    </head>
+    <body>
+        <a href="parte2.html">Parte 2</a>
+        <h1>Rellena tu solicitud</h1>
+        <form action="./parte2.html" method="get"  target="_blank">
+        <fieldset>
+            <legend>Datos básicos</legend>
+            <label for="Nombre" >Nombre</label><br>
+            <input type="text" name="Nombre" value="" maxlength="10" /><br>
+            <label for="Apellidos">Apellidos</label><br>
+            <input type="text" name="Apellidos" value="" maxlength="10" /><br/>
+            <label for="Contraseña">Contraseña</label><br>
+            <input type="password" name="Contraseña" value="" maxlength="10" /><br/>
+            <label for="Motivación">Motivación</label><br>
+            <textarea name="Reseña" rows="7" cols="25"></textarea><br/>
+            
+            <label for="Sexo">Sexo</label><br>
+            <input type="radio" name="sexo" value="hombre" checked="checked"/> 
+            <label for="Hombre">Hombre</label><br>
+            <input type="radio" name="sexo" value="mujer"/>
+            <label for="Mujer">Mujer</label>
+            <br/><input type="radio" name="sexo" value="otro" />		
+            <label for="Otro">Otro</label>
+            <br/><br/>
+            <label for="Fotografía">Fotografía</label>
+            <br/><input type="file" name="adjunto" value="Examinar..."/><br/><br>
+
+            <input id="op1" type="checkbox" name="opciones" value="opcion1"/>
+            <label for="op1">Añadir contador de visitas</label><br/>
+            <input id="op2" type="checkbox" name="opciones" value="opcion2"/>
+            <label for="op2">Suscribirme al boletín de novedades</label>
+        </fieldset><br>
+
+        <fieldset>
+            <legend>Datos adicionales</legend>
+
+            <label for="provincia">Provincia</label><br/>
+                <select id="provincia" name="provincia">
+
+                    <option value="" selected="selected">- selecciona -</option>
+
+                    <option value="Madrid">Madrid</option>
+                    <option value="Barcelona">Barcelona</option>
+                    <option value="Asturias">Asturias</option>
+                    <option value="Cáceres">Cáceres</option>
+                    <option value="Otro">Otro</option>
+                </select>
+                <br>
+                <br>
+
+                <label for="Fecha de nacimiento">Fecha de nacimiento</label><br/>
+                <input type="number" name="dia" value="" max="2"/>
+                <span>de</span>
+                <select id="mes" name="mes">
+
+                    <option value="enero" selected="selected">Enero</option>
+                    <option value="febrero">Febrero</option>
+                    <option value="marzo">Marzo</option>
+                    <option value="abril">Abril</option>
+                    <option value="mayo">Mayo</option>
+                    <option value="junio">Junio</option>
+                    <option value="julio">Julio</option>
+                    <option value="agosto">Agosto</option>
+                    <option value="septiembre">Septiembre</option>
+                    <option value="octubre">Octubre</option>
+                    <option value="noviembre">Noviembre</option>
+                    <option value="diciembre">Diciembre</option>
+
+                </select>
+
+                <span>de</span>
+                
+                <input type="number" name="anio" value="" maxlength="4"/>
+
+                <br>
+                <br>
+
+                <label for="ti">Temas de interés</label> <br/>
+
+                <select id="ti" name="temasinteres" size="5">
+
+                    <option value="bbdd">Administración de bases de datos</option>
+                    <option value="lm">Lenguaje de Marcas</option>
+                    <option value="prog">Programación</option>
+                    <option value="so">Sistemas operativos</option>
+                    <option value="gp">Gestión de proyectos</option>
+
+                </select>
+
+        </fieldset>
+            
+            <br/>
+
+            <fieldset>
+
+                <legend>Datos económicos</legend>
+
+                <span>Precio </span><input type="number" name="precio" value=""/> <span>€</span>
+
+                <span>Impuestos </span>
+
+                <select id="imp" name="impuestos">
+
+                    <option value="4" selected="selected">4%</option>
+                    <option value="4">4%</option>
+                    <option value="5">5%</option>
+                    <option value="6">6%</option>
+                    <option value="7">7%</option>
+                    <option value="8">8%</option>
+
+                </select>
+
+                <br>
+                <br>
+
+                <label for="Promoción">Promoción</label><br/>
+                <input type="radio" name="prom" value="ninguno" checked="checked"/> 
+                <label for="Ninguno">Ninguno</label><br/>
+                <input type="radio" name="prom" value="transgra"/>
+                <label for="Transporte gratuito">Transporte gratuito</label><br/>
+                <input type="radio" name="prom" value="des5" />		
+                <label for="Descuento 5%">Descuento 5%</label>
+
+            </fieldset><br>
+
+            <input type="submit" value="Guardar cambios" />
+            <input type="reset" name="restablecer" value="Borrar los datos introducidos"/>
+
+        </form>
+    </body>
+</html>

@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(201, 205, 210);
+}
+em{
+    text-decoration: underline;
+}
+a{
+    color: gray;
+}
+h1 {
+    color: orange;
+    text-decoration: underline;
+    text-align: center;
+    font-size: large;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    margin-bottom: 7.5%;
+}
+
+#carta {
+    width: 50%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: white;
+    border: 1px outset rgb(199, 197, 197);
+    padding: 5% 10% 10% 10%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 56px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+#remitente {
+    text-align: right;
+}
+
+#destinatario{
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
+#fecha{
+    color: red;
+    text-decoration: underline;
+    text-align: right;
+    font-style: italic;
+    font-size: small;
+}
+#saludo{
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #336600;
+    font-size: large;
+}
+#cuerpo{
+    text-indent: 40px;
+}
+#despedida{
+    color: coral;
+    text-align: justify;
+    text-transform: capitalize;
+    word-spacing: 1rem;
+}
+#firma{
+    background-image: url("B1P18-firma.gif");
+    background-repeat: no-repeat;
+    height: 10%;
+    background-position: right;
+}
+.destacado{
+    color: red;
+    text-decoration: underline;
+}
+.firmado{
+    font-family: Georgia, 'Times New Roman', Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    text-align: right;
+    font-size: small;
+}

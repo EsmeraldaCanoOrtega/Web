@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="pvideojuegos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="pvideojuego" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="codigo">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="fecha" use="required" />
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="titulo" type="xs:string" />
+                            <xs:element name="developers" type="xs:string" />
+                            <xs:element name="paisOrigen" type="xs:string" />
+                            <xs:element name="year" type="xs:string" />
+                            <xs:element name="generos">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="genero" minOccurs="1" maxOccurs="unbounded"
+                                            type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Plataformas">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Plataforma"  minOccurs="1" maxOccurs="unbounded"
+                                            type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="usuarios" minOccurs="0" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="usuario">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="username" minOccurs="0" type="xs:string" />
+                                                    <xs:element name="nombre" minOccurs="1" type="xs:string" />
+                                                    <xs:element name="telefono" minOccurs="0" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

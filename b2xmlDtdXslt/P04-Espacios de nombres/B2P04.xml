@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<listado xmlns:web="http://www.w3.org/1999/xhtml">
+  <titulo>
+    <web:h1> Lista de alumnos </web:h1>
+  </titulo>
+  <lista>
+    <web:ul>
+      <alumnos id="DAW">
+        <web:li>
+          <alumno id="1">
+            <nombre>Eduardo</nombre>
+            <apellido>Peis</apellido>
+            <web:br/>
+            <curso>Iniciación al &#60;XML&#62; desde un punto de vista práctico</curso>
+          </alumno>
+        </web:li>
+        <web:li>
+          <alumno id="2">
+            <nombre>Jaime</nombre>
+            <apellido>Pérez</apellido>
+            <web:br/>
+            <curso>Virtualbox &#60;&#60; Vmware</curso>
+          </alumno>
+        </web:li>
+        <web:li>
+          <alumno id="3">
+            <nombre>José Manuel</nombre>
+            <apellido>Galdo</apellido>
+            <web:br/>
+            <curso>HTML+CSS</curso>
+          </alumno>
+        </web:li>
+      </alumnos>
+    </web:ul>
+  </lista>
+  <pie>
+    <web:hr/>
+    <web:p>
+      <svg:svg xmlns:svg="http://www.w3.org/2000/svg">
+        <svg:circle cx="100" cy="50" r="40" stroke="black" stroke-width="2" fill="red"/>
+      </svg:svg>
+    </web:p>
+  </pie>
+</listado>

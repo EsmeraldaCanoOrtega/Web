@@ -1,0 +1,342 @@
+/* parte comun a todas las paginas */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-position: 40%;
+    background-color: #F7F7F7;
+}
+
+header {
+    margin: auto;
+    color: white;
+    background-color: #3D367B;
+    padding: 2%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    clear: both;
+    font-size: 1.1em;
+    padding: 1%;
+    text-align: center;
+    text-decoration: none;
+    background: linear-gradient(329deg, rgba(0, 0, 0, 1) 0%, rgba(20, 20, 22, 1) 35%, rgba(103, 108, 108, 1) 100%);
+}
+
+footer p,
+footer h3 {
+    margin: 1%;
+    color: white;
+}
+
+footer a {
+    color: #0056B3;
+}
+
+.title {
+    font-size: 3em;
+    margin-bottom: 1%;
+    font-family: 'Tilt Neon', cursive;
+}
+
+.subtitle {
+    margin-top: 1%;
+    font-style: italic;
+}
+
+.menu>div {
+    display: inline-block;
+    margin: 2% 2% 2% 0%;
+}
+
+.menuButton {
+    transition: 0.2s ease-in-out;
+}
+
+.menuButton:hover {
+    color: antiquewhite;
+    transform: scale(1.2);
+}
+
+.titulo1 {
+    color: white;
+    font-size: 3em;
+}
+
+.fontUnica {
+    font-family: 'Unica One', cursive;
+}
+
+.container {
+    width: 100%;
+    padding: 5%;
+    background-image: linear-gradient(180deg, #81cada 0%, #ffffff 100%);
+}
+
+.changeColor {
+    animation-fill-mode: both;
+    animation-direction: alternate;
+    animation-name: color-change;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.changeColorInverted {
+    animation-fill-mode: both;
+    animation-direction: alternate;
+    animation-delay: 20s;
+    animation-name: color-change;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes color-change {
+    0% {
+        background-color: #3D367B;
+        color: white;
+    }
+
+    100% {
+        background-color: white;
+        color: #3D367B;
+    }
+}
+
+/* Parte para la pagina index.html */
+
+#top-image {
+    height: 500px;
+    background-image: url(../images/perrete_gatete.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+
+}
+
+#top-image div {
+    opacity: 0.7;
+    background-color: #3D367B;
+    width: fit-content;
+    margin: auto;
+    padding: 5%;
+    position: relative;
+    top: 150;
+}
+
+#top-image h1 {
+    text-align: center;
+    opacity: 1;
+}
+
+#container-box1 {
+    width: 80%;
+    margin: auto;
+    background-color: #3D367B;
+    box-shadow: 5px 2px 10px gray;
+    border-radius: 50px;
+    padding: 2%;
+}
+
+#container-box1 p {
+    text-align: justify;
+    font-weight: lighter;
+}
+
+#container-box1_lateral h1,
+#container-box1_lateral h3 {
+    text-align: center;
+    font-weight: lighter;
+    text-transform: capitalize;
+}
+
+#container-box1_lateral {
+    margin: 2%;
+}
+
+
+#container-box2 {
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+
+#container-box2 div {
+    display: inline-block;
+    margin: 5%;
+}
+
+#container-box2-campañas {
+    background-image: url("../images/descuento.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+}
+
+#container-box2-vacunacion {
+    background-image: url("../images/vacunacion.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+}
+
+#container-box2-esterilizacion {
+    background-image: url("../images/esterilizacion.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+}
+
+.img-description {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 25%;
+    border-radius: 50%;
+    background: #3D367B;
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
+
+}
+
+.img-rotatoria {
+    background-size: cover;
+    position: relative;
+    height: 215px;
+    width: 257px;
+    transition: 1s;
+}
+
+.img-rotatoria:hover {
+    transform: rotateY(-180deg);
+    transition: 1s;
+}
+
+.img-rotatoria:hover .img-description {
+    transform: rotateY(180deg);
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Parte para sobre_nosotros.html*/
+
+.container #sbn-container-box1,
+.container #sbn-container-box2,
+.container #sbn-container-box3 {
+    display: inline-block;
+    text-align: justify;
+    margin: 1%;
+    vertical-align: top;
+}
+
+#sbn-container-box1 {
+    width: 45%;
+}
+
+#sbn-container-box2 {
+    width: 45%;
+
+}
+
+/* Parte para ofertas.html*/
+#of-container-box1 {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px lightblue;
+}
+
+table {
+    width: 100%;
+    color: #4C4C4C;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+table td {
+    padding: 1% 1% 1% 1%;
+}
+
+
+table tbody tr:nth-of-type(odd) {
+    background-color: white;
+    color: #3D367B;
+}
+
+table tbody tr:hover {
+    opacity: 0.9;
+}
+
+/* Parte para contacto.html*/
+#container-contacto{
+    background-image: url(../images/perrete-depie.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+#con-container-box1 {
+    width: 60%;
+    margin: auto;
+    background-color: rgba(61, 54, 123, 0.7);
+    padding: 2%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+form{
+    color: white
+}
+
+form div {
+    margin: 3% 0% 3% 0%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type=button],
+textarea {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+textarea{
+    resize: vertical;
+}
+
+input[type=reset],
+input[type=submit] {
+    width: 60px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 2%
+}
+
+input[type=submit]{
+    background-color: lightblue;
+}
+
+/* Parte para seguro.html */
+#seg-container{
+    height: 1000px;
+    background-image: url(../images/customizng-channels-google-analytics.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

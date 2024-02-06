@@ -1,0 +1,13 @@
+<!ELEMENT peliculas (pelicula+)>
+<!ATTLIST peliculas
+          xmlns:xsi CDATA #IMPLIED
+          xsi:noNamespaceSchemaLocation CDATA #IMPLIED>
+<!ELEMENT pelicula (Título,TítuloOriginal,Nacionalidad,Idioma,Año_de_producción,Director,Intérpretes)>
+<!ELEMENT Título (#PCDATA)>
+<!ELEMENT TítuloOriginal (#PCDATA)>
+<!ELEMENT Nacionalidad (#PCDATA)>
+<!ELEMENT Idioma (#PCDATA)>
+<!ELEMENT Año_de_producción (#PCDATA)>
+<!ELEMENT Director (#PCDATA)>
+<!ELEMENT Intérpretes (Interprete+)>
+<!ELEMENT Interprete (#PCDATA)>
